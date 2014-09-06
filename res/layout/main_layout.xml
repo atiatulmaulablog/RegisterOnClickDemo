@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/register_onclick_type_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type 1"
+            android:textColor="#008800"/>
+        <TextView 
+            android:id="@+id/textview_register_onclick_type_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register onClick type 1"
+            android:textColor="#008800"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/register_onclick_type_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type 2" 
+            android:textColor="#008800"/>
+        <TextView 
+            android:id="@+id/textview_register_onclick_type_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register onClick type 2"
+            android:textColor="#008800"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/register_onclick_type_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type 3"
+            android:textColor="#008800"
+            android:onClick="onClickType3"/>
+        <TextView 
+            android:id="@+id/textview_register_onclick_type_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register onClick type 3"
+            android:textColor="#008800"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:text="atiatulmaula.wordpress.com"
+        android:textColor="#880000" />
+
+</LinearLayout>
